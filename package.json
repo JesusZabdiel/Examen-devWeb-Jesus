@@ -19,6 +19,7 @@
   "homepage": "https://github.com/JesusZabdiel/Examen-devWeb-Jesus#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mysql2": "^2.3.2",
     "sequelize": "^6.7.0"
   }
 }

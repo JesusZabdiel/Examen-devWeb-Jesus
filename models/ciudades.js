@@ -17,6 +17,8 @@ const Ciudad = (sequelize) =>{
             allowNul: false
         },
 
+        rating: Sequelize.INTEGER,
+
         descripcion: Sequelize.STRING
     })
 }

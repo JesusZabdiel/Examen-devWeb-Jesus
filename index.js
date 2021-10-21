@@ -3,6 +3,7 @@ const express = require('express');
 
 
 const app = express();
+const sequelize = require('./utils/database')
 const cRoutes = require('./routes/ciudades')
 
 
