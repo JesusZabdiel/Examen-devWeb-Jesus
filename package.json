@@ -1,0 +1,24 @@
+{
+  "name": "Examen-devWeb-Jesus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusZabdiel/Examen-devWeb-Jesus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesusZabdiel/Examen-devWeb-Jesus/issues"
+  },
+  "homepage": "https://github.com/JesusZabdiel/Examen-devWeb-Jesus#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.7.0"
+  }
+}
