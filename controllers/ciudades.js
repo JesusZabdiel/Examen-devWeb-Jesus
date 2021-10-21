@@ -3,7 +3,7 @@ const Ciudad = require('../utils/database').models.ciudad
 
 exports.postAgregarCiudades = async (req, res) => {
     try{
-        console.log(req.body)
+        await console.log(req.body)
         await Ciudad.create(req.body)
         console.log('Ciudad creada')
         res.send({operacion: "correcta"})
@@ -27,6 +27,7 @@ exports.getMostrarCiudadesPais = async (req, res) => {
         res.json(ciudades)
     }catch(error){
         console.log("Hubo un error")
+        console.log(error)
         res.send({operacion: "incorrecta"})
         res.end()
     }
